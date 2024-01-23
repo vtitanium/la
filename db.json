@@ -1,0 +1,49 @@
+{
+  "globalEntity": {
+    "name": "Shell",
+    "code": 456
+  },
+  "entityType": {
+    "name": "Oil Major",
+    "code": 456
+  },
+  "supplierAttributes": [
+    {
+      "localEntity": {
+        "name": "Shell Asia",
+        "code": 456789
+      },
+      "supplierPics": [
+        {
+          "name": "person E",
+          "email": "email E"
+        },
+        {
+          "name": "person F",
+          "email": "email F"
+        }
+      ],
+      "flagForTendering": true,
+      "supplierPortAttributes": [
+        {
+          "code": "SGSIN",
+          "name": "Singapore",
+          "grade": {
+            "internalCode": "G",
+            "name": "MGO",
+            "code": 456
+          },
+          "businessModel": {
+            "name": "Trader",
+            "code": 456
+          },
+          "salesVolume": "port + grade of the global entity",
+          "financialStatus": "port + grade of the global entity",
+          "recordOfSupplyToOne": "port + grade of the local entity",
+          "bargeList": "port + grade of the global entity",
+          "contractStatusWithOne": "port + grade of the global entity"
+        }
+      ]
+    }
+  ]
+}
