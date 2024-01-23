@@ -1,47 +1,368 @@
 {
-  "globalEntity": {
-    "name": "Shell",
-    "code": 456
-  },
-  "entityType": {
-    "name": "Oil Major",
-    "code": 456
-  },
-  "supplierAttributes": [
+  "suppliers": [
     {
-      "localEntity": {
-        "name": "Shell Asia",
-        "code": 456789
+      "globalEntity": {
+        "name": "Shell",
+        "code": 111
       },
-      "supplierPics": [
+      "entityType": {
+        "name": "Marine Fuel Supplier",
+        "code": 111
+      },
+      "supplierAttributes": [
         {
-          "name": "person E",
-          "email": "email E"
+          "localEntity": {
+            "name": "Shell Singapore",
+            "code": 2222
+          },
+          "supplierPics": [
+            {
+              "name": "John Tan",
+              "email": "john.tan@shell.com"
+            },
+            {
+              "name": "Lisa Lee",
+              "email": "lisa.lee@shell.com"
+            }
+          ],
+          "flagForTendering": true,
+          "supplierPortAttributes": [
+            {
+              "code": "SGSIN",
+              "name": "Singapore",
+              "grade": {
+                "internalCode": "SHELL VLSFO",
+                "name": "Very Low Sulphur Fuel Oil",
+                "code": 456
+              },
+              "businessModel": {
+                "name": "Physical Supplier",
+                "code": 456
+              },
+              "salesVolume": "2.5 million MT/year",
+              "financialStatus": "Stable",
+              "recordOfSupplyToOne": "Good",
+              "bargeList": "Shell Barge 1, Shell Barge 2, Shell Barge 3",
+              "contractStatusWithOne": "Active"
+            },
+            {
+              "code": "SGSIN",
+              "name": "Singapore",
+              "grade": {
+                "internalCode": "SHELL LNG",
+                "name": "Liquefied Natural Gas",
+                "code": 456
+              },
+              "businessModel": {
+                "name": "Physical Supplier",
+                "code": 456
+              },
+              "salesVolume": "0.5 million MT/year",
+              "financialStatus": "Stable",
+              "recordOfSupplyToOne": "Good",
+              "bargeList": "Shell LNG Barge 1, Shell LNG Barge 2",
+              "contractStatusWithOne": "Active"
+            }
+          ]
         },
         {
-          "name": "person F",
-          "email": "email F"
+          "localEntity": {
+            "name": "Shell Netherlands",
+            "code": 2222
+          },
+          "supplierPics": [
+            {
+              "name": "Peter Van der Berg",
+              "email": "peter.vanderberg@shell.com"
+            },
+            {
+              "name": "Anna De Jong",
+              "email": "anna.dejong@shell.com"
+            }
+          ],
+          "flagForTendering": true,
+          "supplierPortAttributes": [
+            {
+              "code": "NLRTM",
+              "name": "Rotterdam",
+              "grade": {
+                "internalCode": "SHELL ULSFO",
+                "name": "Ultra-Low Sulphur Fuel Oil",
+                "code": 456
+              },
+              "businessModel": {
+                "name": "Physical Supplier",
+                "code": 456
+              },
+              "salesVolume": "1.5 million MT/year",
+              "financialStatus": "Stable",
+              "recordOfSupplyToOne": "Good",
+              "bargeList": "Shell Barge 4, Shell Barge 5, Shell Barge 6",
+              "contractStatusWithOne": "Active"
+            },
+            {
+              "code": "NLRTM",
+              "name": "Rotterdam",
+              "grade": {
+                "internalCode": "SHELL LNG",
+                "name": "Liquefied Natural Gas",
+                "code": 456
+              },
+              "businessModel": {
+                "name": "Physical Supplier",
+                "code": 456
+              },
+              "salesVolume": "0.3 million MT/year",
+              "financialStatus": "Stable",
+              "recordOfSupplyToOne": "Good",
+              "bargeList": "Shell LNG Barge 3, Shell LNG Barge 4",
+              "contractStatusWithOne": "Active"
+            }
+          ]
         }
-      ],
-      "flagForTendering": true,
-      "supplierPortAttributes": [
+      ]
+    },
+    {
+      "globalEntity": {
+        "name": "BP",
+        "code": 111
+      },
+      "entityType": {
+        "name": "Marine Fuel Supplier",
+        "code": 111
+      },
+      "supplierAttributes": [
         {
-          "code": "SGSIN",
-          "name": "Singapore",
-          "grade": {
-            "internalCode": "G",
-            "name": "MGO",
-            "code": 456
+          "localEntity": {
+            "name": "BP Asia",
+            "code": 2222
           },
-          "businessModel": {
-            "name": "Trader",
-            "code": 456
+          "supplierPics": [
+            {
+              "name": "Alex",
+              "email": "alex@someone.com"
+            },
+            {
+              "name": "Kelly",
+              "email": "kelly@someone.com"
+            }
+          ],
+          "flagForTendering": true,
+          "supplierPortAttributes": [
+            {
+              "code": "SGSIN",
+              "name": "Singapore",
+              "grade": {
+                "internalCode": "BP VLSFO",
+                "name": "Very Low Sulphur Fuel Oil",
+                "code": 456
+              },
+              "businessModel": {
+                "name": "Physical Supplier",
+                "code": 456
+              },
+              "salesVolume": "1.2 million MT/year",
+              "financialStatus": "Stable",
+              "recordOfSupplyToOne": "Good",
+              "bargeList": "BP Barge 1, BP Barge 2, BP Barge 3",
+              "contractStatusWithOne": "Active"
+            },
+            {
+              "code": "SGSIN",
+              "name": "Singapore",
+              "grade": {
+                "internalCode": "BP LNG",
+                "name": "Liquefied Natural Gas",
+                "code": 456
+              },
+              "businessModel": {
+                "name": "Physical Supplier",
+                "code": 456
+              },
+              "salesVolume": "0.4 million MT/year",
+              "financialStatus": "Stable",
+              "recordOfSupplyToOne": "Good",
+              "bargeList": "BP LNG Barge 1, BP LNG Barge 2",
+              "contractStatusWithOne": "Active"
+            }
+          ]
+        },
+        {
+          "localEntity": {
+            "name": "BP Europe",
+            "code": 2222
           },
-          "salesVolume": "port + grade of the global entity",
-          "financialStatus": "port + grade of the global entity",
-          "recordOfSupplyToOne": "port + grade of the local entity",
-          "bargeList": "port + grade of the global entity",
-          "contractStatusWithOne": "port + grade of the global entity"
+          "supplierPics": [
+            {
+              "name": "David",
+              "email": "david@someone.com"
+            },
+            {
+              "name": "Emma",
+              "email": "emma@someone.com"
+            }
+          ],
+          "flagForTendering": true,
+          "supplierPortAttributes": [
+            {
+              "code": "NLRTM",
+              "name": "Rotterdam",
+              "grade": {
+                "internalCode": "BP ULSFO",
+                "name": "Ultra-Low Sulphur Fuel Oil",
+                "code": 456
+              },
+              "businessModel": {
+                "name": "Physical Supplier",
+                "code": 456
+              },
+              "salesVolume": "0.8 million MT/year",
+              "financialStatus": "Stable",
+              "recordOfSupplyToOne": "Good",
+              "bargeList": "BP Barge 4, BP Barge 5, BP Barge 6",
+              "contractStatusWithOne": "Active"
+            },
+            {
+              "code": "NLRTM",
+              "name": "Rotterdam",
+              "grade": {
+                "internalCode": "BP LNG",
+                "name": "Liquefied Natural Gas",
+                "code": 456
+              },
+              "businessModel": {
+                "name": "Physical Supplier",
+                "code": 456
+              },
+              "salesVolume": "0.2 million MT/year",
+              "financialStatus": "Stable",
+              "recordOfSupplyToOne": "Good",
+              "bargeList": "BP LNG Barge 3, BP LNG Barge 4",
+              "contractStatusWithOne": "Active"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "globalEntity": {
+        "name": "Total",
+        "code": 111
+      },
+      "entityType": {
+        "name": "Marine Fuel Supplier",
+        "code": 111
+      },
+      "supplierAttributes": [
+        {
+          "localEntity": {
+            "name": "Total Asia",
+            "code": 2222
+          },
+          "supplierPics": [
+            {
+              "name": "Alex",
+              "email": "alex@someone.com"
+            },
+            {
+              "name": "Kim",
+              "email": "kim@someone.com"
+            }
+          ],
+          "flagForTendering": true,
+          "supplierPortAttributes": [
+            {
+              "code": "THBKK",
+              "name": "Bangkok",
+              "grade": {
+                "internalCode": "TOTAL VLSFO",
+                "name": "Very Low Sulphur Fuel Oil",
+                "code": 456
+              },
+              "businessModel": {
+                "name": "Physical Supplier",
+                "code": 456
+              },
+              "salesVolume": "0.6 million MT/year",
+              "financialStatus": "Stable",
+              "recordOfSupplyToOne": "Good",
+              "bargeList": "Total Barge 1, Total Barge 2, Total Barge 3",
+              "contractStatusWithOne": "Active"
+            },
+            {
+              "code": "THBKK",
+              "name": "Bangkok",
+              "grade": {
+                "internalCode": "TOTAL LNG",
+                "name": "Liquefied Natural Gas",
+                "code": 456
+              },
+              "businessModel": {
+                "name": "Physical Supplier",
+                "code": 456
+              },
+              "salesVolume": "0.1 million MT/year",
+              "financialStatus": "Stable",
+              "recordOfSupplyToOne": "Good",
+              "bargeList": "Total LNG Barge 1, Total LNG Barge 2",
+              "contractStatusWithOne": "Active"
+            }
+          ]
+        },
+        {
+          "localEntity": {
+            "name": "Total Europe",
+            "code": 2222
+          },
+          "supplierPics": [
+            {
+              "name": "David",
+              "email": "david@someone.com"
+            },
+            {
+              "name": "Emma",
+              "email": "emma@someone.com"
+            }
+          ],
+          "flagForTendering": true,
+          "supplierPortAttributes": [
+            {
+              "code": "GBLON",
+              "name": "London",
+              "grade": {
+                "internalCode": "TOTAL ULSFO",
+                "name": "Ultra-Low Sulphur Fuel Oil",
+                "code": 456
+              },
+              "businessModel": {
+                "name": "Physical Supplier",
+                "code": 456
+              },
+              "salesVolume": "0.4 million MT/year",
+              "financialStatus": "Stable",
+              "recordOfSupplyToOne": "Good",
+              "bargeList": "Total Barge 4, Total Barge 5, Total Barge 6",
+              "contractStatusWithOne": "Active"
+            },
+            {
+              "code": "GBLON",
+              "name": "London",
+              "grade": {
+                "internalCode": "TOTAL LNG",
+                "name": "Liquefied Natural Gas",
+                "code": 456
+              },
+              "businessModel": {
+                "name": "Physical Supplier",
+                "code": 456
+              },
+              "salesVolume": "0.1 million MT/year",
+              "financialStatus": "Stable",
+              "recordOfSupplyToOne": "Good",
+              "bargeList": "Total LNG Barge 3, Total LNG Barge 4",
+              "contractStatusWithOne": "Active"
+            }
+          ]
         }
       ]
     }
